@@ -1,0 +1,42 @@
+body {
+    /* background: url('https://tse3.mm.bing.net/th?id=OIG1.MAGoVbVrm3Q.zPaEQAty&pid=ImgGn'); */
+    background-image: linear-gradient(rgba(211, 211, 211, 0.424), rgba(12, 11, 11, 0.429)), url('https://tse3.mm.bing.net/th?id=OIG1.MAGoVbVrm3Q.zPaEQAty&pid=ImgGn');
+    /* background: rgb(199,233,243);
+background: linear-gradient(180deg, rgba(199,233,243,1) 0%, rgba(59,100,124,1) 98%); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+*{
+    margin: 0;
+    padding:0
+}
+
+.page{
+    position: absolute;
+}
+
+
+.fade-appear, .fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear-active, .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit{
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active{
+    opacity: 1;
+    transition: opacity 150ms linear;
+
+}
